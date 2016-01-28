@@ -1,4 +1,4 @@
-FROM debian:8
+FROM debian
 MAINTAINER 谢致邦 <Yeking@Red54.com>
 COPY apt /etc/apt
 RUN apt-get update && apt-get install -y \
