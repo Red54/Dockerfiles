@@ -1,5 +1,21 @@
 FROM debian:8
 MAINTAINER 谢致邦 <Yeking@Red54.com>
-RUN echo 'APT::Install-Recommends "0";' > /etc/apt/apt.conf.d/99norecommends
-RUN apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
-RUN apt-get install -y git colordiff
+COPY apt /etc/apt
+RUN apt-get update && apt-get install -y \
+	apt-file \
+	bzip2 \
+	colordiff \
+	deborphan \
+	file \
+	g++ \
+	git \
+	libncurses5-dev \
+	make \
+	openssh-client \
+	openssl \
+	python \
+	unzip \
+	vim \
+	zlib1g-dev \
+&& apt-get clean \
+&& rm -rf /var/lib/apt/lists/*

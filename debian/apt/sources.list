@@ -1,0 +1,2 @@
+deb http://debian.ustc.edu.cn/debian jessie main
+deb http://debian.ustc.edu.cn/debian-security jessie/updates main
