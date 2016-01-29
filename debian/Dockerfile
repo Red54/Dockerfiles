@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
 	openssh-client \
 	openssl \
 	python \
+	quilt \
 	unzip \
 	vim \
 	zlib1g-dev \
