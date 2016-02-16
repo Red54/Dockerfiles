@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 	deborphan \
 	file \
 	g++ \
+	gawk \
 	git \
 	libncurses5-dev \
 	make \
