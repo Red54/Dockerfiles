@@ -20,4 +20,4 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	zlib1g-dev \
 && apt-get clean \
-&& rm -rf /var/lib/apt/lists/*
+&& apt-file update
