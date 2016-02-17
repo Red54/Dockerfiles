@@ -3,7 +3,6 @@ MAINTAINER 谢致邦 <Yeking@Red54.com>
 COPY apt /etc/apt
 RUN apt-get update && apt-get install -y \
 	apt-file \
-	bzip2 \
 	colordiff \
 	deborphan \
 	file \
@@ -11,13 +10,15 @@ RUN apt-get update && apt-get install -y \
 	gawk \
 	git \
 	libncurses5-dev \
+	libssl-dev \
 	make \
 	openssh-client \
 	openssl \
 	python \
 	quilt \
+	subversion \
 	unzip \
 	vim \
-	zlib1g-dev \
+	wget \
 && apt-get clean \
 && apt-file update
