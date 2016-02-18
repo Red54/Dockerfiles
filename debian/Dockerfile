@@ -21,5 +21,6 @@ RUN apt-get update && apt-get install -y \
 	unzip \
 	vim \
 	wget \
+	xz-utils \
 && apt-get clean \
 && apt-file update
