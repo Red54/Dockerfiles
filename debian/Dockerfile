@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y \
 	libssl-dev \
 	make \
 	openssh-client \
-	openssl \
 	python \
 	quilt \
 	subversion \
