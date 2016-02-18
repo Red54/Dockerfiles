@@ -3,6 +3,7 @@ MAINTAINER 谢致邦 <Yeking@Red54.com>
 COPY apt /etc/apt
 RUN apt-get update && apt-get install -y \
 	apt-file \
+	ca-certificates \
 	colordiff \
 	deborphan \
 	file \
