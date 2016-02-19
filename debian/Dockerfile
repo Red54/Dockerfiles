@@ -10,9 +10,11 @@ RUN apt-get update && apt-get install -y \
 	g++ \
 	gawk \
 	git \
+	less \
 	libncurses5-dev \
 	libssl-dev \
 	make \
+	man-db \
 	openssh-client \
 	python \
 	quilt \
