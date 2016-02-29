@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
 	ca-certificates \
 	colordiff \
 	deborphan \
+	dnsutils \
 	file \
 	g++ \
 	gawk \
@@ -15,7 +16,10 @@ RUN apt-get update && apt-get install -y \
 	libssl-dev \
 	make \
 	man-db \
+	net-tools \
 	openssh-client \
+	proxychains \
+	psmisc \
 	python \
 	quilt \
 	subversion \
