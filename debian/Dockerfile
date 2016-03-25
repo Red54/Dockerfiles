@@ -22,9 +22,10 @@ RUN apt-get update && apt-get install -y \
 	psmisc \
 	python \
 	quilt \
+	sharutils \
 	subversion \
 	unzip \
 	vim \
 	wget \
 	xz-utils \
-&& apt-get clean && apt-file update
+&& apt-file update
