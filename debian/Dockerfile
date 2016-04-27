@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
 	deborphan \
 	dnsutils \
 	file \
-	g++ \
+	gccxml \
 	gawk \
 	git \
 	less \
