@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 	colordiff \
 	deborphan \
 	dnsutils \
+	dpkg-dev \
 	file \
 	gccxml \
 	gawk \
