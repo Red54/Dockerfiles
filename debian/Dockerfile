@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
 	ca-certificates \
 	colordiff \
 	deborphan \
+	devscripts \
 	dnsutils \
 	dpkg-dev \
 	file \
