@@ -1,0 +1,1 @@
+docker run -h $1 --name $1 -dit -v ~/docker/$1:/root ${2:-red54/debian}
