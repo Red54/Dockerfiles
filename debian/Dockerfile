@@ -4,18 +4,22 @@ COPY apt /etc/apt
 RUN apt-get update && apt-get install -y \
 	apt-file \
 	automake \
+	bison \
 	ca-certificates \
 	colordiff \
 	deborphan \
 	devscripts \
 	dnsutils \
 	dpkg-dev \
+	equivs \
 	file \
+	flex \
 	gccxml \
 	gawk \
 	git \
 	less \
 	lib32z1 \
+	libfile-fcntllock-perl \
 	libncurses5-dev \
 	libssl-dev \
 	libtool \
@@ -30,6 +34,7 @@ RUN apt-get update && apt-get install -y \
 	quilt \
 	sharutils \
 	subversion \
+	sudo \
 	unzip \
 	vim \
 	wget \
