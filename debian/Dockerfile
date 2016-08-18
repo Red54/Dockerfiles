@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
 	bison \
 	ca-certificates \
 	colordiff \
+	cpio \
 	deborphan \
 	devscripts \
 	dnsutils \
