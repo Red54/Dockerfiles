@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y \
 	equivs \
 	file \
 	flex \
-	gccxml \
 	gawk \
 	git \
 	less \
@@ -34,6 +33,7 @@ RUN apt-get update && apt-get install -y \
 	python \
 	quilt \
 	sharutils \
+	sshfs \
 	subversion \
 	sudo \
 	unzip \
