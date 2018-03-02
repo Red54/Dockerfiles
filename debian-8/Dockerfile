@@ -1,11 +1,13 @@
 FROM debian:8
 MAINTAINER 谢致邦 <Yeking@Red54.com>
 COPY apt /etc/apt
-RUN apt-get update && apt-get install -y \
+RUN ln -sf /bin/bash /bin/sh \
+&& apt-get update && apt-get install -y \
 	apt-file \
 	automake \
 	bison \
 	ca-certificates \
+	chrpath \
 	colordiff \
 	cpio \
 	deborphan \
