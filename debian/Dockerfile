@@ -26,6 +26,7 @@ RUN ln -sf /bin/bash /bin/sh \
 	libncurses5-dev \
 	libssl-dev \
 	libtool \
+	locales \
 	make \
 	man-db \
 	net-tools \
