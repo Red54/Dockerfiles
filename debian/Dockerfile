@@ -10,6 +10,7 @@ RUN ln -sf /bin/bash /bin/sh \
 	chrpath \
 	colordiff \
 	cpio \
+	curl \
 	deborphan \
 	devscripts \
 	dnsutils \
